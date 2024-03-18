@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="h-screen">
       <Head>
         <title>{process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta property="og:title" content="My page title" key="title" />
