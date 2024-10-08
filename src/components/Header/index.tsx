@@ -14,7 +14,7 @@ export default function Header() {
       <ul className="flex justify-center items-center">
         <li className="md:ml-auto transition duration-300 border-solid border-2 border-transparent hover:border-tertiary hover:bg-secondary rounded-lg">
           <Link className="w-full h-full flex py-2 md:px-12 px-4 rounded-lg" href="/">
-            My Projects
+            My Projects!
           </Link>
         </li>
         <li className="md:m-auto transition duration-300 border-solid border-2 border-transparent hover:border-tertiary hover:bg-secondary rounded-lg">
