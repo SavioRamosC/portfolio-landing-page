@@ -18,12 +18,12 @@ export default function Header() {
           </Link>
         </li>
         <li className="md:m-auto transition duration-300  hover:text-colorRed">
-          <Link className="w-full h-full flex py-2 md:px-12 px-4 text-colorWhite rounded-lg" href="/">
+          <Link className="w-full h-full flex py-2 md:px-12 px-4 text-colorGray rounded-lg" href="/">
             Home
           </Link>
         </li>
         <li className="md:mr-auto transition duration-300  hover:text-colorRed">
-          <Link className="w-full h-full flex py-2 md:px-12 px-4 text-colorWhite rounded-lg" href="/about">
+          <Link className="w-full h-full flex py-2 md:px-12 px-4 text-white rounded-lg" href="/about">
             About
           </Link>
         </li>
