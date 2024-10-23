@@ -10,19 +10,19 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed w-full bg-colorRed text-colorWhite py-3">
+    <header className="fixed w-full bg-colorBlack text-colorWhite py-3">
       <ul className="flex justify-center items-center">
-        <li className="md:ml-auto transition duration-300 border-solid border-2 border-transparent hover:border-colorGray hover:bg-colorBlack rounded-lg">
+        <li className="md:ml-auto transition duration-300 hover:text-colorRed">
           <Link className="w-full h-full flex py-2 md:px-12 px-4 rounded-lg" href="/">
             My Projects!
           </Link>
         </li>
-        <li className="md:m-auto transition duration-300 border-solid border-2 border-transparent hover:border-colorGray hover:bg-colorBlack rounded-lg">
+        <li className="md:m-auto transition duration-300 hover:text-colorRed">
           <Link className="w-full h-full flex py-2 md:px-12 px-4 rounded-lg" href="/">
             Home
           </Link>
         </li>
-        <li className="md:mr-auto transition duration-300 border-solid border-2 border-transparent hover:border-colorGray hover:bg-colorBlack rounded-lg">
+        <li className="md:mr-auto transition duration-300 hover:text-colorRed">
           <Link className="w-full h-full flex py-2 md:px-12 px-4 rounded-lg" href="/about">
             About
           </Link>
